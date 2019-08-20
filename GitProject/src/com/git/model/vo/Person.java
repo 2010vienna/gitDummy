@@ -7,6 +7,20 @@ public class Person {
 	
 
 	
+	public Person() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public Person(String name, int age, String address) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.address = address;
+	}
+
+
 	public String getName() {
 		return name;
 	}
